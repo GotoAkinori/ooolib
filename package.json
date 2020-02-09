@@ -1,0 +1,22 @@
+{
+  "name": "ooolib",
+  "version": "1.0.0",
+  "description": "Thin wrapper of html.",
+  "main": "index.js",
+  "scripts": {
+    "typedoc": "typedoc --out docs ts",
+    "server": "node test/server.js",
+    "test-command": "node test/command/command.js"
+  },
+  "author": "Goto Akinori",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "tui-jsdoc-template": "^1.2.2",
+    "typedoc": "^0.16.9",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "node": "^13.7.0"
+  }
+}

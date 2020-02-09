@@ -1,0 +1,16 @@
+.collapse {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 1px 10px;
+}
+
+td.result_OK {
+    background-color: lightgreen;
+}
+
+td.result_NG {
+    background-color: red;
+}
